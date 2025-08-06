@@ -70,3 +70,6 @@ foreach (string line in asciiLogo)
     Console.WriteLine();
     Thread.Sleep(200);
 }
+
+Console.ResetColor();           // reset console text colors back to default
+Thread.Sleep(30000);            // keep the program running for 30 seconds to let the music finish and user read the text
